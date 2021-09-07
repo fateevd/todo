@@ -1,0 +1,86 @@
+.App-main {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  border: 1px solid black;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.number {
+  margin-right: 15px;
+}
+.main-list:hover {
+  background: crimson;
+  border: 5px solid blue;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  color: brown;
+  background: coral;
+  border: 2px solid purple;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.mimo {
+  border: 1px solid gray;
+}
+
+.mimo:hover {
+  background: black;
+  border: 2px solid blueviolet;
+}
+
+.nav {
+  background: chocolate;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: purple;
+}
+
+.Error {
+  margin-top: 50px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+
+}
